@@ -1,7 +1,11 @@
 package com.training.exercise1;
+
 /*
- * Recibir un string que contenga un número romano y convertirlo a int   MCMXCIV
+ * Create a function that receive a string that has a roman number
+ * return the number converted into an integer
+ * example: input -> IV   output -> 4
  */
+
 public class Solution {
 
 	public int romanToInt(String s) {
@@ -10,10 +14,6 @@ public class Solution {
 		
 		StringBuilder revS = new StringBuilder(s);
         revS.reverse();
-		//MCMXCIV  -> VICXMCM
-        //4
-        //104
-        //94
         
 		int prev = romanValue(revS.charAt(0));
 		

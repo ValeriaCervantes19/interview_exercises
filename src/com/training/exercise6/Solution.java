@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /*
- * recibir un número entero e imprimir la representación binaria de los números anteriores a él, incluyendolo
+ * receive an int number and print all the binary representation numbers until that number, including itself
  */
 
 public class Solution {

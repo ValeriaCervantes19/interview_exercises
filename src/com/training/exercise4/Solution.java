@@ -1,8 +1,8 @@
 package com.training.exercise4;
 
 /*
- * Crear una función que reciba un string e imprima el número de vocales y consonantes que tiene
- * No importa si son mayúsculas o minúsculas
+ * Create a function that receives a string and print the number of vowels and consonants that has
+ * -> doesn't matter if it has uppercase or lowercase letters
  */
 
 public class Solution {

@@ -1,10 +1,10 @@
 package com.training.exercise3;
 
 /*
- * checar si una palabra es palíndromo (se lee igual al revés)  
- * No importa si hay mayúsculas o mínusculas, se toman igual
- * Los símbolos también se toman en cuenta, siempre y cuando sigan las reglas de ser palíndromo
- * regresar true si es palíndromo, false en caso contrario
+ * Check if a word is a palindrome (a word that you can read in the same way if is upside down)
+ * Doesn't matter if there are uppercase or lowercase letters
+ * Symbols also count just following the rules of a palindrome
+ * return true is the word is a palindrome or false in the contrary case
  */
 
 public class PalindromeChecker {

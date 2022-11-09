@@ -4,14 +4,15 @@ import java.util.Map;
 import java.util.Stack;
 
 /*
- * regresar un booleano true en caso de que los paréntesis tengan cierra, un false en caso contrario
+ * return a boolean true if there are both parentheses for opening and closing, but false in the contrary case
+ * 
  */
 
 public class Solution {
 	
-	public boolean checkParentesis(String str) { 
+	public boolean checkParentheses(String str) { 
 	    
-		Stack<Character> stack = new Stack();
+		Stack<Character> stack = new Stack<Character>();
 		Map<Character, Character> blockSymbols = Map.of(')', '(', ']', '[', '>', '<');
 		
 		for(int i = 0; i < str.length(); i++) {

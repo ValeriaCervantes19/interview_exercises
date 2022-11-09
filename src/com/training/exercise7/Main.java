@@ -16,14 +16,14 @@ public class Main {
 		String s7 = "<i(ncre>e)ment";
 		String s8 = "(<increment>";
 		
-		System.out.println(solution.checkParentesis(s1));
-		System.out.println(solution.checkParentesis(s2));
-		System.out.println(solution.checkParentesis(s3));
-		System.out.println(solution.checkParentesis(s4));
+		System.out.println(solution.checkParentheses(s1));
+		System.out.println(solution.checkParentheses(s2));
+		System.out.println(solution.checkParentheses(s3));
+		System.out.println(solution.checkParentheses(s4));
 		
-		System.out.println(solution.checkParentesis(s5));
-		System.out.println(solution.checkParentesis(s6));
-		System.out.println(solution.checkParentesis(s7));
-		System.out.println(solution.checkParentesis(s8));
+		System.out.println(solution.checkParentheses(s5));
+		System.out.println(solution.checkParentheses(s6));
+		System.out.println(solution.checkParentheses(s7));
+		System.out.println(solution.checkParentheses(s8));
 	}
 }

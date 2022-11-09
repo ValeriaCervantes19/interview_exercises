@@ -1,8 +1,8 @@
 package com.training.exercise5;
 
 /*
- * recibir un arreglo y regresar el producto máximo que se pueda obtener de dos de sus elementos 
- * ejemplo [2, 3, 6, 8, 9]  -> el producto máximo sería entre 8*9 = 72
+ * receive an array of integers and return the maximum product of that array
+ * example: [3, 8, 6, 4, 5, 9]   maximumProduct = 8*9 = 72
  */
 
 public class Solution {
