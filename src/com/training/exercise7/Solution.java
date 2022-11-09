@@ -9,7 +9,7 @@ import java.util.Stack;
 
 public class Solution {
 	
-	public boolean checkParentesis(String str) {
+	public boolean checkParentesis(String str) { 
 	    
 		Stack<Character> stack = new Stack();
 		Map<Character, Character> blockSymbols = Map.of(')', '(', ']', '[', '>', '<');
