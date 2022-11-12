@@ -1,7 +1,7 @@
 package com.training.exercise1;
 
 /*
- * Create a function that receive a string that has a roman number
+ * Create a function that receives a string that has a roman number
  * return the number converted into an integer
  * example: input -> IV   output -> 4
  */
