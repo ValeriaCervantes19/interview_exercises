@@ -6,7 +6,7 @@ package com.training.exercise1;
  * example: input -> IV   output -> 4
  */
 
-public class Solution {
+public class RomanToInteger {
 
 	public int romanToInt(String s) {
 		

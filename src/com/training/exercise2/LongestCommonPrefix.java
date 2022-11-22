@@ -6,7 +6,7 @@ package com.training.exercise2;
 	If there is no common prefix, return an empty string "".
  */
 
-public class Solution {
+public class LongestCommonPrefix {
 
 	public String longestCommonPrefix(String[] strs) {
 		

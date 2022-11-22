@@ -3,7 +3,7 @@ package com.training.exercise2;
 public class Main {
 
 	public static void main(String[] args) {
-		Solution solution = new Solution();
+		LongestCommonPrefix solution = new LongestCommonPrefix();
 		
 		String[] words = {"carro", "cartulina", "carniceria"};
 		

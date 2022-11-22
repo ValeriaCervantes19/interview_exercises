@@ -8,7 +8,7 @@ public class Main {
 		String s2 = " there is a quiet Mouse";
 		String s3 = "I am Happy";
 		
-		Solution solution = new Solution();
+		VowelsAndConsonants solution = new VowelsAndConsonants();
 		
 		solution.findNumberOfVowelsAndConsonants(s1);
 		solution.findNumberOfVowelsAndConsonants(s2);

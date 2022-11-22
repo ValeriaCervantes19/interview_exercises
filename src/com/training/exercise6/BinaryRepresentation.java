@@ -7,7 +7,7 @@ import java.util.Queue;
  * receive an int number and print all the binary representation numbers until that number, including itself
  */
 
-public class Solution {
+public class BinaryRepresentation {
 
 	public void printBinary(int number) {
 		

@@ -5,7 +5,7 @@ package com.training.exercise4;
  * -> doesn't matter if it has uppercase or lowercase letters
  */
 
-public class Solution {
+public class VowelsAndConsonants {
 	
 	public void findNumberOfVowelsAndConsonants(String input) {
 		//hacer toda la cadena a minúscula o mayúscula

@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Solution solution = new Solution();
+		MaximumProduct solution = new MaximumProduct();
 		int[] arr = {3, 4, 6, 1, 7, 2, 9};
 		int result;
 		//debe regresar el producto de 9*7 = 63

@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Solution solution = new Solution();
+		MostRepeatedWord solution = new MostRepeatedWord();
 		
 		String test = "hi hi hi val val moni moni moni moni";
 		

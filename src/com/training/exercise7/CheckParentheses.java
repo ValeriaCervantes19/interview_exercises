@@ -8,7 +8,7 @@ import java.util.Stack;
  * 
  */
 
-public class Solution {
+public class CheckParentheses {
 	
 	public boolean checkParentheses(String str) { 
 	    

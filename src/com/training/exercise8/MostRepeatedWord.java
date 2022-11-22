@@ -12,7 +12,7 @@ import java.util.Map;
  * If two words are repeated an equal number of times, wichever set of words came first should be returned
  */
 
-public class Solution {
+public class MostRepeatedWord {
 
 	public String findMostRepeatedWord(String input) {
 		

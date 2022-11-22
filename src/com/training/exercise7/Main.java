@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Solution solution = new Solution();
+		CheckParentheses solution = new CheckParentheses();
 		
 		String s1 = "(<[]>)";
 		String s2 = "[<incre>ment]";

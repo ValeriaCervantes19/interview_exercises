@@ -5,7 +5,7 @@ package com.training.exercise5;
  * example: [3, 8, 6, 4, 5, 9]   maximumProduct = 8*9 = 72
  */
 
-public class Solution {
+public class MaximumProduct {
 	
 	public int maximumProduct(int[] arr) {
 		
