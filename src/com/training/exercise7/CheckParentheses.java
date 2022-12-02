@@ -28,7 +28,7 @@ public class CheckParentheses {
 			}
 		}
 		
-		return stack.isEmpty();
+		return stack.isEmpty();  
 		
 	}
 }

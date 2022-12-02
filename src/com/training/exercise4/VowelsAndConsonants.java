@@ -8,7 +8,7 @@ package com.training.exercise4;
 public class VowelsAndConsonants {
 	
 	public void findNumberOfVowelsAndConsonants(String input) {
-		//hacer toda la cadena a minúscula o mayúscula
+		
 		String wordToCompare = input.toLowerCase();
 		String vowels = "aeiouy";
 		char[] wordArray = wordToCompare.toCharArray();
@@ -16,11 +16,11 @@ public class VowelsAndConsonants {
 		int consonantCounter = 0;
 		
 		for(char c: wordArray) {
-			//indexOf regresa -1 cuando no hay un elemento 
+			//indexOf return -1 when there is no match of element
 			if(vowels.indexOf(c) != -1) {
 				vowelsCounter++;
 			}
-			//si no es vocal ni un espacio en blanco, será una consonante
+			//if is not vowel or a blank space it is a consonant
 			else if(c != ' ') {
 				consonantCounter++;
 			}

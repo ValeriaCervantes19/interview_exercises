@@ -19,7 +19,7 @@ public class PalindromeChecker {
 		//String reversed = StringBuilder(wordToCompare).reverse().toString();
 		
 		//guardar la nueva string volteada en variable reversed
-		for(int i=wordToCompare.length()-1; i>=0; i--){
+		for(int i = wordToCompare.length()-1; i >= 0; i--){
 			reversed.append(wordToCompare.charAt(i));
 		}
 		

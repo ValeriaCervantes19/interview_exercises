@@ -8,6 +8,7 @@ package com.training.exercise9;
 public class GreatestCommonDenominator {
 					// 	20 			8
 	public Integer gdc(Integer a, Integer b) {
+		
 		Integer t = 0;
 		while(b != 0) {
 			t = a; // t=20
